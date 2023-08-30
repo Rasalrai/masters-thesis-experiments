@@ -1,4 +1,4 @@
-# ECAI paper #320
+# Impact of Class Imbalance on Machine Learning Fairness
 
 Properties of fairness measures in the context of varying class imbalance and protected group ratios
 
@@ -19,7 +19,7 @@ In the repository, there are .py scripts for reproducing all the experiments fro
 All the same code is also available in the form of Jupyter notebooks, in the `notebooks/` directory,
 to allow interactive execution.
 
-### Experiments with synthetic data (Sections 3 and 4 of the paper)
+### Experiments with synthetic data
 
 - `sets_creation.py`: generation of synthetic data, consisting of all possible confusion matrices with regard to
     the protected groups and decision classes.
@@ -27,7 +27,7 @@ to allow interactive execution.
 - `histograms_plot`: distribution of fairness measures
 - `perfect_fairness_and_undefined`: probability of perfect fairness and undefined values of metrics
 
-### Experiments with real-world data (Section 5)
+### Experiments with real-world data
 
 - `case_study.py`: all the code for the case study with the Adult dataset
 
